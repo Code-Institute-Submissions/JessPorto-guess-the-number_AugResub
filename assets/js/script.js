@@ -45,3 +45,33 @@ let secret = pickRandom(3);
 let input = document.querySelector(".form-control");
 
 input.focus();
+
+/**
+ * Checks the input against the random number generated
+ */
+
+ function check() {
+
+  let found = false;
+  for (var position = 0; position < secret.length; position++) {
+
+    if (input.value == secret[position]) {
+
+      alert(secret[position]);
+      alert("You Win! Congratulations !!");
+      found = true;
+      break;
+
+    }
+
+  }
+  if (found == false) {
+
+    alert("Wrong Number! Try again !!");
+  }
+
+  input.value = "";
+  input.focus();
+}
+let button = document.querySelector("#button");
+button.onclick = check;
