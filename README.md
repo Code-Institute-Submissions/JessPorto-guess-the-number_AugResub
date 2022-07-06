@@ -8,7 +8,7 @@
 
 - **Features**  
 
-  - Header at the top of the page shows the game purpose with a image that make the game pleasent to see.
+  - Header at the top of the page shows the game purpose with a image that make the game pleasant to see.
 
   ![Features](/assets/images/headerScreenShot.JPG)
 
