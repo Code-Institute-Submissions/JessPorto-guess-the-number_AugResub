@@ -1,14 +1,14 @@
 /**
  * Creates one number between 1 and 10
  */
- function numberRange() {
+function numberRange() {
   return Math.round(Math.random() * 10);
 
 }
 
 /**
-* Pick one random number
-*/
+ * Pick one random number
+ */
 function pickRandom(quantity) {
 
   let secret = [];
@@ -47,10 +47,10 @@ let input = document.querySelector(".form-control");
 input.focus();
 
 /**
- * Checks the input against the random number generated
+ * Checks the input against the random number generate d
  */
 
- function check() {
+function check() {
 
   let found = false;
   for (var position = 0; position < secret.length; position++) {
