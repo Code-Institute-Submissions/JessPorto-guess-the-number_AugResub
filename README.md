@@ -8,7 +8,7 @@
 
 - **Features**  
 
-  - Header at the top of the page shows the game porpose with a image that make the game plesent to see.
+  - Header at the top of the page shows the game purpose with a image that make the game pleasent to see.
 
   ![Features](/assets/images/headerScreenShot.JPG)
 
@@ -16,17 +16,17 @@
   ###
 
   **Game interface** 
-  - there is a input where the  user can type the chosed number and click in the button "Generate" that will check the user number againt the machine It also have validation so the user mut type numbe only.
+  - There is a input where the  user can type the chosen number and click in the button "Generate" that will check the user number against the machine It also have validation so the user must type numbers only.
 ![Game](/assets/images/GeneratScreenShot.JPG)
 
   **Lose Game**
-  - when the user type a number that's diffrent of the one chosed by the computer an alert will appear showing the right number than a second alert will apear informing that the user lost
+  - when the user type a number that is different of the one chosen by the computer an alert will appear showing the right number then a second alert will apear informing that the user lost
 
   ![Wrong number](/assets/images/screenShotWrong.JPG)
 
  ###
   **Win Game**
-  - If the user type the right number an alert will appear showing the right number than a second alert will apear informing that the user win.
+  - If the user type the right number an alert will appear showing the right number then a second alert will apear informing that the user win.
 
   ![Right number](/assets/images/screenShotRight.JPG)
 
@@ -44,7 +44,7 @@
 
 ### Solved Bugs
 
-- A problem found on the JS file when it was pushed to the Gitpages after the path was solved all worked well.
+- A problem was found on the JS file when it was pushed to the Gitpages after the path was solved all worked well.
 
 ### Validator Testing
 
