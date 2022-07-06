@@ -66,7 +66,7 @@ input.focus();
 
   }
   if (found == false) {
-
+    alert(position);
     alert("Wrong Number! Try again !!");
   }
 
