@@ -40,7 +40,7 @@ function pickRandom(quantity) {
   return secret;
 }
 
-let secret = pickRandom(3);
+let secret = pickRandom(1);
 
 let input = document.querySelector(".form-control");
 
@@ -58,20 +58,21 @@ function check() {
     if (input.value == secret[position]) {
 
       alert(secret[position]);
-      alert("You Win! Congratulations !!");
+      alert("You Win! Congratulations !! Press OK to play again");
       found = true;
-      break;
-
+     break;
     }
 
   }
+  
   if (found == false) {
-    alert(position);
-    alert("Wrong Number! Try again !!");
-  }
+      alert(secret);
+      alert("Wrong Number! Press OK to try again !!");
+  } 
 
   input.value = "";
   input.focus();
+  location.reload()
 }
 let button = document.querySelector("#button");
 button.onclick = check;
